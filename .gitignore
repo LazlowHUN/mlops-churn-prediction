@@ -1,5 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Venv
+venv/
+
+# Data & models
 data/*
 !data/.gitkeep
 models/*
 !models/.gitkeep
-venv/
+
+# Jupyter
+.ipynb_checkpoints/
